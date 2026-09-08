@@ -1,11 +1,11 @@
 {
   "run": {
-    "run_id": "20260907-0500-v61prod",
-    "trade_date": "2026-09-07",
+    "run_id": "20260908-0500-v61prod",
+    "trade_date": "2026-09-08",
     "strategy_version": "V6.1-prod",
     "status": "PARTIAL",
-    "started_at": "2026-09-07T04:58:40+08:00",
-    "completed_at": "2026-09-07T09:56:00+08:00",
+    "started_at": "2026-09-08T05:02:30+08:00",
+    "completed_at": "2026-09-08T05:12:00+08:00",
     "universe_count": 45,
     "qualified_count": 45
   },
@@ -93,15 +93,6 @@
     },
     {
       "rank": 10,
-      "ticker": "000610.SZ",
-      "name": "*ST西旅",
-      "decision": "WAIT",
-      "qualification": 1,
-      "restructuring_probability": null,
-      "confidence": null
-    },
-    {
-      "rank": 11,
       "ticker": "002726.SZ",
       "name": "ST龙大",
       "decision": "WAIT",
@@ -110,7 +101,7 @@
       "confidence": null
     },
     {
-      "rank": 12,
+      "rank": 11,
       "ticker": "603378.SH",
       "name": "*ST亚士",
       "decision": "WAIT",
@@ -119,7 +110,7 @@
       "confidence": null
     },
     {
-      "rank": 13,
+      "rank": 12,
       "ticker": "300123.SZ",
       "name": "ST亚光",
       "decision": "WAIT",
@@ -128,7 +119,7 @@
       "confidence": null
     },
     {
-      "rank": 14,
+      "rank": 13,
       "ticker": "600491.SH",
       "name": "ST龙元",
       "decision": "WAIT",
@@ -137,7 +128,7 @@
       "confidence": null
     },
     {
-      "rank": 15,
+      "rank": 14,
       "ticker": "002360.SZ",
       "name": "ST同德",
       "decision": "WAIT",
@@ -146,7 +137,7 @@
       "confidence": null
     },
     {
-      "rank": 16,
+      "rank": 15,
       "ticker": "002620.SZ",
       "name": "*ST瑞和",
       "decision": "WAIT",
@@ -155,7 +146,7 @@
       "confidence": null
     },
     {
-      "rank": 17,
+      "rank": 16,
       "ticker": "300198.SZ",
       "name": "*ST纳川",
       "decision": "WAIT",
@@ -164,7 +155,7 @@
       "confidence": null
     },
     {
-      "rank": 18,
+      "rank": 17,
       "ticker": "600340.SH",
       "name": "*ST华幸",
       "decision": "WAIT",
@@ -173,7 +164,7 @@
       "confidence": null
     },
     {
-      "rank": 19,
+      "rank": 18,
       "ticker": "002789.SZ",
       "name": "*ST建艺",
       "decision": "WAIT",
@@ -182,7 +173,7 @@
       "confidence": null
     },
     {
-      "rank": 20,
+      "rank": 19,
       "ticker": "002743.SZ",
       "name": "富煌钢构",
       "decision": "OPTION",
@@ -191,7 +182,7 @@
       "confidence": null
     },
     {
-      "rank": 21,
+      "rank": 20,
       "ticker": "301030.SZ",
       "name": "*ST仕净",
       "decision": "OPTION",
@@ -200,7 +191,7 @@
       "confidence": null
     },
     {
-      "rank": 22,
+      "rank": 21,
       "ticker": "000826.SZ",
       "name": "*ST启环",
       "decision": "AVOID",
@@ -209,7 +200,7 @@
       "confidence": null
     },
     {
-      "rank": 23,
+      "rank": 22,
       "ticker": "600180.SH",
       "name": "*ST瑞茂",
       "decision": "AVOID",
@@ -218,7 +209,7 @@
       "confidence": null
     },
     {
-      "rank": 24,
+      "rank": 23,
       "ticker": "600337.SH",
       "name": "ST美克",
       "decision": "AVOID",
@@ -227,7 +218,7 @@
       "confidence": null
     },
     {
-      "rank": 25,
+      "rank": 24,
       "ticker": "300044.SZ",
       "name": "*ST赛为",
       "decision": "AVOID",
@@ -236,10 +227,19 @@
       "confidence": null
     },
     {
-      "rank": 26,
+      "rank": 25,
       "ticker": "300716.SZ",
       "name": "*ST泉为",
       "decision": "AVOID",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 26,
+      "ticker": "000610.SZ",
+      "name": "*ST西旅",
+      "decision": "UNRANKED",
       "qualification": 1,
       "restructuring_probability": null,
       "confidence": null
@@ -416,5 +416,5 @@
       "confidence": null
     }
   ],
-  "generated_at": "2026-09-07 13:46:18 中国标准时间"
+  "generated_at": "2026-09-08 09:25:05 中国标准时间"
 }
