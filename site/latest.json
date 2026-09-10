@@ -1,125 +1,35 @@
 {
   "run": {
-    "run_id": "20260909-0500-v61prod",
-    "trade_date": "2026-09-09",
+    "run_id": "20260909-MANUAL-FULL-AUDIT-v61",
+    "trade_date": "2026-09-10",
     "strategy_version": "V6.1-prod",
     "status": "PARTIAL",
-    "started_at": "2026-09-09T04:57:21+08:00",
-    "completed_at": "2026-09-09T05:00:00+08:00",
-    "universe_count": 10,
-    "qualified_count": 6
+    "started_at": null,
+    "completed_at": null,
+    "universe_count": 41,
+    "qualified_count": 41
   },
   "ranking": [
     {
       "rank": 1,
-      "ticker": "ST华谊",
-      "name": null,
-      "decision": "CORE",
-      "qualification": 0,
+      "ticker": "300123.SZ",
+      "name": "ST亚光",
+      "decision": "UNRANKED",
+      "qualification": 1,
       "restructuring_probability": null,
       "confidence": null
     },
     {
       "rank": 2,
-      "ticker": "ST合纵",
-      "name": null,
-      "decision": "CORE",
-      "qualification": 0,
+      "ticker": "002547.SZ",
+      "name": "*ST春兴",
+      "decision": "UNRANKED",
+      "qualification": 1,
       "restructuring_probability": null,
       "confidence": null
     },
     {
       "rank": 3,
-      "ticker": "ST百利",
-      "name": null,
-      "decision": "HIGH_ODDS",
-      "qualification": 0,
-      "restructuring_probability": null,
-      "confidence": null
-    },
-    {
-      "rank": 4,
-      "ticker": "ST三木",
-      "name": null,
-      "decision": "WAIT",
-      "qualification": 0,
-      "restructuring_probability": null,
-      "confidence": null
-    },
-    {
-      "rank": 5,
-      "ticker": "ST龙大",
-      "name": null,
-      "decision": "WAIT",
-      "qualification": 0,
-      "restructuring_probability": null,
-      "confidence": null
-    },
-    {
-      "rank": 6,
-      "ticker": "ST龙元",
-      "name": null,
-      "decision": "WAIT",
-      "qualification": 0,
-      "restructuring_probability": null,
-      "confidence": null
-    },
-    {
-      "rank": 7,
-      "ticker": "*ST亚士",
-      "name": null,
-      "decision": "WAIT",
-      "qualification": 0,
-      "restructuring_probability": null,
-      "confidence": null
-    },
-    {
-      "rank": 8,
-      "ticker": "富煌钢构",
-      "name": null,
-      "decision": "OPTION",
-      "qualification": 0,
-      "restructuring_probability": null,
-      "confidence": null
-    },
-    {
-      "rank": 9,
-      "ticker": "*ST仕净",
-      "name": null,
-      "decision": "OPTION",
-      "qualification": 0,
-      "restructuring_probability": null,
-      "confidence": null
-    },
-    {
-      "rank": 10,
-      "ticker": "*ST启环",
-      "name": null,
-      "decision": "AVOID",
-      "qualification": 0,
-      "restructuring_probability": null,
-      "confidence": null
-    },
-    {
-      "rank": 11,
-      "ticker": "300027.SZ",
-      "name": "ST华谊",
-      "decision": "UNRANKED",
-      "qualification": 1,
-      "restructuring_probability": null,
-      "confidence": null
-    },
-    {
-      "rank": 12,
-      "ticker": "300477.SZ",
-      "name": "ST合纵",
-      "decision": "UNRANKED",
-      "qualification": 1,
-      "restructuring_probability": null,
-      "confidence": null
-    },
-    {
-      "rank": 13,
       "ticker": "000632.SZ",
       "name": "ST三木",
       "decision": "UNRANKED",
@@ -128,16 +38,124 @@
       "confidence": null
     },
     {
-      "rank": 14,
-      "ticker": "603959.SH",
-      "name": "ST百利",
+      "rank": 4,
+      "ticker": "600491.SH",
+      "name": "ST龙元",
       "decision": "UNRANKED",
-      "qualification": 0,
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 5,
+      "ticker": "000610.SZ",
+      "name": "*ST西旅",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 6,
+      "ticker": "300068.SZ",
+      "name": "ST南都",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 7,
+      "ticker": "002726.SZ",
+      "name": "ST龙大",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 8,
+      "ticker": "002856.SZ",
+      "name": "*ST美芝",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 9,
+      "ticker": "600180.SH",
+      "name": "*ST瑞茂",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 10,
+      "ticker": "603378.SH",
+      "name": "*ST亚士",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 11,
+      "ticker": "300338.SZ",
+      "name": "*ST开元",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 12,
+      "ticker": "002528.SZ",
+      "name": "*ST英飞",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 13,
+      "ticker": "002789.SZ",
+      "name": "*ST建艺",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 14,
+      "ticker": "603398.SH",
+      "name": "*ST沐邦",
+      "decision": "UNRANKED",
+      "qualification": 1,
       "restructuring_probability": null,
       "confidence": null
     },
     {
       "rank": 15,
+      "ticker": "300027.SZ",
+      "name": "ST华谊",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 16,
+      "ticker": "300477.SZ",
+      "name": "ST合纵",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 17,
       "ticker": "301030.SZ",
       "name": "*ST仕净",
       "decision": "UNRANKED",
@@ -146,25 +164,70 @@
       "confidence": null
     },
     {
-      "rank": 16,
-      "ticker": "002726.SZ",
-      "name": "ST龙大",
-      "decision": "UNRANKED",
-      "qualification": 0,
-      "restructuring_probability": null,
-      "confidence": null
-    },
-    {
-      "rank": 17,
-      "ticker": "600491.SH",
-      "name": "ST龙元",
-      "decision": "UNRANKED",
-      "qualification": 0,
-      "restructuring_probability": null,
-      "confidence": null
-    },
-    {
       "rank": 18,
+      "ticker": "000010.SZ",
+      "name": "*ST美丽",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 19,
+      "ticker": "300301.SZ",
+      "name": "ST长方",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 20,
+      "ticker": "603843.SH",
+      "name": "*ST正平",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 21,
+      "ticker": "300212.SZ",
+      "name": "*ST易录",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 22,
+      "ticker": "002360.SZ",
+      "name": "ST同德",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 23,
+      "ticker": "300147.SZ",
+      "name": "*ST香雪",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 24,
+      "ticker": "000669.SZ",
+      "name": "ST金鸿",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 25,
       "ticker": "000826.SZ",
       "name": "*ST启环",
       "decision": "UNRANKED",
@@ -173,16 +236,142 @@
       "confidence": null
     },
     {
-      "rank": 19,
-      "ticker": "603378.SH",
-      "name": "*ST亚士",
+      "rank": 26,
+      "ticker": "000838.SZ",
+      "name": "*ST发展",
       "decision": "UNRANKED",
-      "qualification": 0,
+      "qualification": 1,
       "restructuring_probability": null,
       "confidence": null
     },
     {
-      "rank": 20,
+      "rank": 27,
+      "ticker": "002168.SZ",
+      "name": "ST惠程",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 28,
+      "ticker": "002620.SZ",
+      "name": "*ST瑞和",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 29,
+      "ticker": "002634.SZ",
+      "name": "*ST棒杰",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 30,
+      "ticker": "300044.SZ",
+      "name": "*ST赛为",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 31,
+      "ticker": "300198.SZ",
+      "name": "*ST纳川",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 32,
+      "ticker": "300385.SZ",
+      "name": "ST雪浪",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 33,
+      "ticker": "300472.SZ",
+      "name": "ST新元",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 34,
+      "ticker": "300716.SZ",
+      "name": "*ST泉为",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 35,
+      "ticker": "600337.SH",
+      "name": "ST美克",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 36,
+      "ticker": "600340.SH",
+      "name": "*ST华幸",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 37,
+      "ticker": "600537.SH",
+      "name": "*ST亿晶",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 38,
+      "ticker": "603377.SH",
+      "name": "ST东时",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 39,
+      "ticker": "603959.SH",
+      "name": "ST百利",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 40,
+      "ticker": "688033.SH",
+      "name": "*ST天宜",
+      "decision": "UNRANKED",
+      "qualification": 1,
+      "restructuring_probability": null,
+      "confidence": null
+    },
+    {
+      "rank": 41,
       "ticker": "002743.SZ",
       "name": "富煌钢构",
       "decision": "UNRANKED",
@@ -191,5 +380,5 @@
       "confidence": null
     }
   ],
-  "generated_at": "2026-09-09 09:25:08 中国标准时间"
+  "generated_at": "2026-09-10 09:25:10 中国标准时间"
 }
