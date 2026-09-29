@@ -1,0 +1,54 @@
+name: STSS daily free A-share market-data cache
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/stss-market-daily.yml'
+      - 'scripts/stss_cloud_daily_quotes.py'
+      - 'marketdata/stss_universe_snapshot.csv'
+  workflow_dispatch:
+  schedule:
+    - cron: '35 10 * * 1-5'  # Beijing 18:35 Monday-Friday; GitHub schedules may be delayed.
+permissions:
+  contents: write
+concurrency:
+  group: stss-market-daily
+  cancel-in-progress: false
+jobs:
+  market-cache:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - name: Check out default-branch market cache
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Python 3.11 (standard library only)
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Fetch, validate and calculate all roster daily bars
+        run: python scripts/stss_cloud_daily_quotes.py
+      - name: Upload machine-readable QA even if GitHub commit fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: stss-daily-market-qa
+          path: |
+            marketdata/stss_market_qa.json
+            marketdata/stss_latest_50.csv
+            marketdata/stss_pricing_50.csv
+            marketdata/stss_daily_history.csv
+          if-no-files-found: warn
+          retention-days: 14
+      - name: Publish validated cache to GitHub (technical market cache only)
+        run: |
+          git config user.name "stss-market-data[bot]"
+          git config user.email "stss-market-data@users.noreply.github.com"
+          git add marketdata/stss_market_qa.json marketdata/stss_latest_50.csv marketdata/stss_pricing_50.csv marketdata/stss_daily_history.csv
+          if git diff --cached --quiet; then
+            echo "Market-data output is unchanged."
+          else
+            git commit -m "data: refresh free Tencent/Eastmoney daily market cache"
+            git push origin HEAD:main
+          fi
