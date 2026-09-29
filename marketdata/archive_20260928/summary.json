@@ -1,0 +1,2540 @@
+{
+  "run_type": "STSS_WEB_HTTP_FULL_BACKFILL_AND_STRESS",
+  "window": {
+    "start": "2025-09-01",
+    "end": "2026-09-28"
+  },
+  "reference_calendar": {
+    "total": 261,
+    "first": "2025-09-01",
+    "last": "2026-09-28",
+    "benchmark_sizes": {
+      "000001.SZ": 261,
+      "600000.SH": 261
+    }
+  },
+  "pool": {
+    "target_count": 50,
+    "success_with_history": 50,
+    "latest_complete_date_count": 50,
+    "total_bars": 12950,
+    "files": [
+      {
+        "path": "marketdata/archive_20260928/part_01.csv",
+        "tickers": [
+          "000010.SZ",
+          "000610.SZ",
+          "000632.SZ",
+          "000669.SZ",
+          "000826.SZ",
+          "000838.SZ",
+          "000972.SZ",
+          "002168.SZ",
+          "002360.SZ",
+          "002528.SZ"
+        ],
+        "rows": 2596
+      },
+      {
+        "path": "marketdata/archive_20260928/part_02.csv",
+        "tickers": [
+          "002547.SZ",
+          "002620.SZ",
+          "002634.SZ",
+          "002726.SZ",
+          "002743.SZ",
+          "002789.SZ",
+          "002856.SZ",
+          "300027.SZ",
+          "300044.SZ",
+          "300068.SZ"
+        ],
+        "rows": 2596
+      },
+      {
+        "path": "marketdata/archive_20260928/part_03.csv",
+        "tickers": [
+          "300123.SZ",
+          "300147.SZ",
+          "300198.SZ",
+          "300212.SZ",
+          "300301.SZ",
+          "300338.SZ",
+          "300385.SZ",
+          "300472.SZ",
+          "300477.SZ",
+          "300716.SZ"
+        ],
+        "rows": 2598
+      },
+      {
+        "path": "marketdata/archive_20260928/part_04.csv",
+        "tickers": [
+          "301030.SZ",
+          "600180.SH",
+          "600337.SH",
+          "600340.SH",
+          "600491.SH",
+          "600537.SH",
+          "600881.SH",
+          "603377.SH",
+          "603378.SH",
+          "603398.SH"
+        ],
+        "rows": 2587
+      },
+      {
+        "path": "marketdata/archive_20260928/part_05.csv",
+        "tickers": [
+          "603843.SH",
+          "603959.SH",
+          "688033.SH",
+          "000752.SZ",
+          "000829.SZ",
+          "002514.SZ",
+          "300205.SZ",
+          "300460.SZ",
+          "002542.SZ",
+          "000056.SZ"
+        ],
+        "rows": 2573
+      }
+    ],
+    "tickers": [
+      {
+        "ticker": "000010.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-29"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "000610.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-24"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "000632.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-29"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "000669.SZ",
+        "rows": 261,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "000826.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-29"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "000838.SZ",
+        "rows": 255,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-24",
+          "2026-08-03",
+          "2026-08-04",
+          "2026-08-05",
+          "2026-08-06",
+          "2026-08-07"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "000972.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-06-26"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "002168.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-05-08"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "002360.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-28"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "002528.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-29"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "002547.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-29"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "002620.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-29"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "002634.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-27"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "002726.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-29"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "002743.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-09-07"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "002789.SZ",
+        "rows": 261,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "002856.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-29"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "300027.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-29"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "300044.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-21"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "300068.SZ",
+        "rows": 255,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2025-12-12",
+          "2025-12-15",
+          "2025-12-16",
+          "2025-12-17",
+          "2025-12-18",
+          "2026-04-29"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "300123.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-20"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "300147.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-29"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "300198.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-28"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "300212.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-29"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "300301.SZ",
+        "rows": 261,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "300338.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-28"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "300385.SZ",
+        "rows": 256,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-03-17",
+          "2026-03-18",
+          "2026-03-19",
+          "2026-03-20",
+          "2026-04-13"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "300472.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-09-02"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "300477.SZ",
+        "rows": 261,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "300716.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-30"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "301030.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-30"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "600180.SH",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-29"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "600337.SH",
+        "rows": 250,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2025-12-18",
+          "2025-12-19",
+          "2025-12-22",
+          "2025-12-23",
+          "2025-12-24",
+          "2025-12-25",
+          "2025-12-26",
+          "2025-12-29",
+          "2025-12-30",
+          "2025-12-31",
+          "2026-04-30"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "600340.SH",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-30"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "600491.SH",
+        "rows": 254,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-30",
+          "2026-07-03",
+          "2026-07-06",
+          "2026-07-07",
+          "2026-07-08",
+          "2026-07-09",
+          "2026-08-27"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "600537.SH",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-28"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "600881.SH",
+        "rows": 261,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "603377.SH",
+        "rows": 261,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "603378.SH",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-30"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "603398.SH",
+        "rows": 261,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "603843.SH",
+        "rows": 231,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2025-10-09",
+          "2025-10-10",
+          "2025-10-13",
+          "2025-10-14",
+          "2025-10-15",
+          "2025-10-29",
+          "2025-10-30",
+          "2025-10-31",
+          "2025-11-03",
+          "2025-11-04",
+          "2025-11-05",
+          "2025-11-06",
+          "2025-11-07",
+          "2025-11-10",
+          "2025-11-11",
+          "2025-11-19",
+          "2025-11-20",
+          "2025-11-21",
+          "2025-11-24",
+          "2025-11-25",
+          "2025-11-26",
+          "2025-11-27",
+          "2025-11-28",
+          "2025-12-01",
+          "2025-12-02",
+          "2026-03-27",
+          "2026-03-30",
+          "2026-03-31",
+          "2026-04-01",
+          "2026-04-02"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "603959.SH",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-27"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "688033.SH",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-30"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "000752.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-27"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "000829.SZ",
+        "rows": 261,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "002514.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-30"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "300205.SZ",
+        "rows": 261,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "300460.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2025-12-10"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "002542.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-20"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      },
+      {
+        "ticker": "000056.SZ",
+        "rows": 260,
+        "first": "2025-09-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "benchmark_missing_sessions": [
+          "2026-04-24"
+        ],
+        "source": "Tencent_raw",
+        "errors": []
+      }
+    ],
+    "reference_close_20260924": [
+      {
+        "ticker": "000752.SZ",
+        "expected": 8.96,
+        "actual": 8.96,
+        "pass": true
+      },
+      {
+        "ticker": "002360.SZ",
+        "expected": 5.5,
+        "actual": 5.5,
+        "pass": true
+      },
+      {
+        "ticker": "600491.SH",
+        "expected": 1.62,
+        "actual": 1.62,
+        "pass": true
+      },
+      {
+        "ticker": "002168.SZ",
+        "expected": 3.59,
+        "actual": 3.59,
+        "pass": true
+      },
+      {
+        "ticker": "002634.SZ",
+        "expected": 4.04,
+        "actual": 4.04,
+        "pass": true
+      },
+      {
+        "ticker": "300212.SZ",
+        "expected": 7.7,
+        "actual": 7.7,
+        "pass": true
+      },
+      {
+        "ticker": "000610.SZ",
+        "expected": 7.4,
+        "actual": 7.4,
+        "pass": true
+      },
+      {
+        "ticker": "002856.SZ",
+        "expected": 17.79,
+        "actual": 17.79,
+        "pass": true
+      },
+      {
+        "ticker": "002542.SZ",
+        "expected": 1.63,
+        "actual": 1.63,
+        "pass": true
+      },
+      {
+        "ticker": "300205.SZ",
+        "expected": 5.36,
+        "actual": 5.36,
+        "pass": true
+      }
+    ]
+  },
+  "stress": {
+    "distinct_target": 200,
+    "additional": 150,
+    "successful_history": 200,
+    "latest_date_count": 196,
+    "total_bars": 24288,
+    "roster_error": null,
+    "results": [
+      {
+        "ticker": "000010.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "000016.SZ",
+        "rows": 102,
+        "first": "2026-04-01",
+        "last": "2026-09-03",
+        "latest_session_present": false,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "000056.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "000078.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "000488.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "000609.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "000610.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "000615.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "000632.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "000639.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "000669.SZ",
+        "rows": 123,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "000677.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "000698.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "000752.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "000793.SZ",
+        "rows": 121,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "000821.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "000826.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "000829.SZ",
+        "rows": 123,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "000838.SZ",
+        "rows": 117,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "000903.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "000909.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "000911.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "000972.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "002024.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002055.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002082.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002102.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002109.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002122.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002168.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "002175.SZ",
+        "rows": 117,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002193.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002198.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002207.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002211.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002217.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002227.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002305.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002306.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002323.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002360.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "002424.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002431.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002485.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002501.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002512.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002514.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "002528.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "002538.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002542.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "002547.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "002569.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002581.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002592.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002598.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002620.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "002630.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002634.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "002650.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002667.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002689.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002691.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002694.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002717.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002719.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002726.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "002731.SZ",
+        "rows": 61,
+        "first": "2026-04-01",
+        "last": "2026-08-31",
+        "latest_session_present": false,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002743.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "002759.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002789.SZ",
+        "rows": 123,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "002816.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002822.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002856.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "002872.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002883.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002932.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "002977.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "300010.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "300020.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "300027.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "300044.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "300068.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "300076.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "300081.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "300087.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "300091.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "300123.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "300147.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "300152.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "300167.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "300173.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "300198.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "300205.SZ",
+        "rows": 123,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "300211.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-24",
+        "latest_session_present": false,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "300212.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "300237.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "300245.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "300290.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "300295.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "300301.SZ",
+        "rows": 123,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "300326.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "300338.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "300352.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "300366.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "300385.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "300396.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "300419.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "300430.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "300460.SZ",
+        "rows": 123,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "300462.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "300472.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "300477.SZ",
+        "rows": 123,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "300527.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "300555.SZ",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "300594.SZ",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "300716.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "301030.SZ",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "600053.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600079.SH",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600080.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600082.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600084.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600107.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600119.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600136.SH",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600169.SH",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600180.SH",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "600187.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600238.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600239.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600243.SH",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600265.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600289.SH",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600302.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600337.SH",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "600340.SH",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "600365.SH",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600370.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600381.SH",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600423.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600439.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600476.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600491.SH",
+        "rows": 116,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "600530.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600537.SH",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "600543.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600568.SH",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600581.SH",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600624.SH",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600678.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600730.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600734.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600735.SH",
+        "rows": 106,
+        "first": "2026-04-27",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600745.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600753.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600759.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600818.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600881.SH",
+        "rows": 123,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "600889.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "600965.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "601010.SH",
+        "rows": 120,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "601718.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "603008.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "603021.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "603189.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "603272.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "603359.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "603377.SH",
+        "rows": 123,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "603378.SH",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "603398.SH",
+        "rows": 123,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "603429.SH",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "603517.SH",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "603557.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "603595.SH",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "603718.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "603729.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "603789.SH",
+        "rows": 117,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "603822.SH",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "603825.SH",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "603828.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "603838.SH",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "603843.SH",
+        "rows": 121,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "603869.SH",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "603922.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "603959.SH",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "605199.SH",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "605336.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "688022.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "688033.SH",
+        "rows": 122,
+        "latest_session_present": true,
+        "origin": "pool_reuse",
+        "error": []
+      },
+      {
+        "ticker": "688053.SH",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "688066.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "688076.SH",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "688089.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "688121.SH",
+        "rows": 80,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "688184.SH",
+        "rows": 123,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "688189.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "688201.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "688270.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "688496.SH",
+        "rows": 110,
+        "first": "2026-04-01",
+        "last": "2026-09-10",
+        "latest_session_present": false,
+        "origin": "Tencent_raw",
+        "error": []
+      },
+      {
+        "ticker": "688622.SH",
+        "rows": 122,
+        "first": "2026-04-01",
+        "last": "2026-09-28",
+        "latest_session_present": true,
+        "origin": "Tencent_raw",
+        "error": []
+      }
+    ]
+  },
+  "eastmoney_crosschecks": [
+    {
+      "ticker": "002360.SZ",
+      "eastmoney": 5.58,
+      "tencent": 5.58,
+      "same": true
+    },
+    {
+      "ticker": "600491.SH",
+      "eastmoney": 1.52,
+      "tencent": 1.52,
+      "same": true
+    },
+    {
+      "ticker": "000752.SZ",
+      "eastmoney": 9.01,
+      "tencent": 9.01,
+      "same": true
+    }
+  ],
+  "elapsed_seconds": 124.84
+}
