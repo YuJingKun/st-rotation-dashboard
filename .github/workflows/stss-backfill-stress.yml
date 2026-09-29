@@ -2,7 +2,7 @@ name: STSS bulk HTTP backfill and 200-distinct-ticker stress
 on:
   push:
     branches: [market-data-probe-20260929]
-    paths: ['.github/workflows/stss-backfill-stress.yml']
+    paths: ['.github/workflows/stss-backfill-stress.yml', 'scripts/stss_cloud_backfill_20260928.py']
   workflow_dispatch:
 permissions:
   contents: write
