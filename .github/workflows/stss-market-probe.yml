@@ -1,0 +1,95 @@
+name: STSS two-source daily-bar connectivity probe
+on:
+  push:
+    branches: [market-data-probe-20260929]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install free providers
+        run: python -m pip install --disable-pip-version-check baostock akshare tzdata
+      - name: Test 10 STSS stocks on 2026-09-24 (both independent sources)
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, socket, time, sys, traceback
+          refs = {
+             "000752.SZ":8.96, "002360.SZ":5.50, "600491.SH":1.62,
+             "002168.SZ":3.59, "002634.SZ":4.04, "300212.SZ":7.70,
+             "000610.SZ":7.40, "002856.SZ":17.79, "002542.SZ":1.63,
+             "300205.SZ":5.36
+          }
+          socket.setdefaulttimeout(10)
+          import baostock as bs
+          import akshare as ak
+          results=[]
+          connected=False
+          login_error=None
+          try:
+              rs=bs.login()
+              connected=(str(rs.error_code)=="0")
+              if not connected: login_error=rs.error_msg
+          except Exception as e:
+              login_error=str(e)
+          for code,reference in refs.items():
+              sx,market=code.split(".")
+              item={"ticker":code,"reference_20260924":reference}
+              if connected:
+                  try:
+                      rs=bs.query_history_k_data_plus(market.lower()+"."+sx,
+                        "date,code,open,high,low,close,volume,amount",
+                        start_date="2026-09-20",end_date="2026-09-24",
+                        frequency="d",adjustflag="3")
+                      if str(rs.error_code)!="0":raise RuntimeError(rs.error_msg)
+                      dates=[]
+                      while rs.next():
+                          values=dict(zip(rs.fields,rs.get_row_data()))
+                          dates.append(values)
+                      bar=next((x for x in dates if x["date"]=="2026-09-24"),None)
+                      if not bar:raise ValueError("historical bar missing 2026-09-24")
+                      item["bao_close"]=float(bar["close"])
+                      item["bao_matches_reference"]=abs(item["bao_close"]-reference)<=0.011
+                  except Exception as e:
+                      item["bao_error"]=str(e)[:150]
+              else:
+                  item["bao_error"]=login_error
+              try:
+                  df=ak.stock_zh_a_hist_tx(symbol=market.lower()+sx,start_date="20260920",end_date="20260924",adjust="",timeout=12)
+                  dates=df.to_dict("records")
+                  bar=next((x for x in dates if str(x["date"])[:10]=="2026-09-24"),None)
+                  if not bar:raise ValueError("Tencent historical bar missing 2026-09-24")
+                  item["tx_close"]=float(bar["close"])
+                  item["tx_matches_reference"]=abs(item["tx_close"]-reference)<=0.011
+              except Exception as e:
+                  item["tx_error"]=str(e)[:150]
+              item["double_match"]=(item.get("bao_matches_reference") is True and item.get("tx_matches_reference") is True)
+              results.append(item)
+              print(json.dumps(item,ensure_ascii=False),flush=True)
+              time.sleep(0.35)
+          if connected:
+              try:bs.logout()
+              except Exception:pass
+          summary={"bao_success":sum(x.get("bao_matches_reference") is True for x in results),
+                   "tencent_success":sum(x.get("tx_matches_reference") is True for x in results),
+                   "double_match":sum(x["double_match"] for x in results),
+                   "count":len(results),
+                   "login_error":login_error}
+          open("probe_result.json","w",encoding="utf-8").write(json.dumps({"summary":summary,"rows":results},ensure_ascii=False,indent=2))
+          print("FINAL_PROBE_SUMMARY",json.dumps(summary,ensure_ascii=False),flush=True)
+          if summary["bao_success"]==0 and summary["tencent_success"]==0:sys.exit(1)
+          PY
+      - name: Upload test evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: stss-market-probe-results
+          path: probe_result.json
+          if-no-files-found: warn
