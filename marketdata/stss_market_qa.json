@@ -1,0 +1,443 @@
+{
+  "generated_at_cst": "2026-09-29T10:28:33+08:00",
+  "expected_complete_session": "2026-09-28",
+  "snapshot_source": "V6.2_CURRENT_STATE 50-ticker snapshot; Drive remains authoritative",
+  "ticker_count": 50,
+  "fresh_count": 50,
+  "stale_count": 0,
+  "unavailable_count": 0,
+  "price_conflict_count": 0,
+  "benchmark": {
+    "000001.SZ": "2026-09-28",
+    "600000.SH": "2026-09-28"
+  },
+  "spot_crosschecks": {
+    "002360.SZ": {
+      "status": "PASS",
+      "tencent_close": 5.58,
+      "eastmoney_close": 5.58,
+      "delta": 0.0
+    },
+    "600491.SH": {
+      "status": "PASS",
+      "tencent_close": 1.52,
+      "eastmoney_close": 1.52,
+      "delta": 0.0
+    },
+    "000752.SZ": {
+      "status": "PASS",
+      "tencent_close": 9.01,
+      "eastmoney_close": 9.01,
+      "delta": 0.0
+    }
+  },
+  "request_counts": {
+    "Tencent_raw": 52,
+    "Eastmoney_raw": 3
+  },
+  "status": "SUCCESS",
+  "per_ticker": [
+    {
+      "ticker": "000010.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "000610.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "000632.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "000669.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "000826.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "000838.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "000972.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "002168.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "002360.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "002528.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "002547.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "002620.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "002634.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "002726.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "002743.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "002789.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "002856.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "300027.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "300044.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "300068.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "300123.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "300147.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "300198.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "300212.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "300301.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "300338.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "300385.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "300472.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "300477.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "300716.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "301030.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "600180.SH",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "600337.SH",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "600340.SH",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "600491.SH",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "600537.SH",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "600881.SH",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "603377.SH",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "603378.SH",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "603398.SH",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "603843.SH",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "603959.SH",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "688033.SH",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "000752.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "000829.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "002514.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "300205.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "300460.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "002542.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "000056.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-28",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    }
+  ],
+  "no_future_bars": true,
+  "raw_prices_only": true
+}
