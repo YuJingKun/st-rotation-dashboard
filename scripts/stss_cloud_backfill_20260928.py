@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """STSS one-time bulk historic backfill + independent 200-ticker cloud stress test.
 
-No Tushare pricing dependency. Tencent's 'day' (not qfqday) provides RAW daily prices;
+No Tushare pricing dependency. Tencent prefers RAW daily prices; explicit qfq fallback is labelled;
 Eastmoney is a sparse cross-check / automatic fallback only. All validation failures
 are explicitly recorded; missing sessions must not be fabricated.
 """
@@ -42,13 +42,23 @@ def safe_num(x):
 def tencent(ticker,limit=450,start=START):
     code, exchange = ticker.split(".")
     symbol=exchange.lower()+code
-    url=("https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?"
-         +urllib.parse.urlencode({"param":symbol+",day,,,"+str(limit)}))
-    obj=request_json(url,"https://gu.qq.com/","tencent")
-    d=(obj.get("data") or {}).get(symbol) or {}
-    daily=d.get("day") or []
+    # Tencent's fqkline endpoint may require an explicit adjustment flag.
+    # Prefer raw 'none'. If unavailable, use qfq ONLY with source labelling.
+    daily=[];adjustment=None;last_error=None
+    for mode in ("none","qfq"):
+        url=("https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?"
+             +urllib.parse.urlencode({"param":symbol+",day,,,"+str(limit)+","+mode}))
+        try:
+            obj=request_json(url,"https://gu.qq.com/","tencent")
+            d=(obj.get("data") or {}).get(symbol) or {}
+            daily=d.get("day") or d.get("qfqday") or []
+            if daily:
+                adjustment="raw" if mode=="none" and d.get("day") else "qfq"
+                break
+        except Exception as e:
+            last_error=str(e)
     if not daily:
-        raise ValueError("Tencent raw/unadjusted day array empty; will NOT substitute qfqday")
+        raise ValueError("Tencent returned no raw or qfq history: "+str(last_error))
     bars=[]
     for x in daily:
         if len(x)<6 or not start<=x[0]<=END: continue
@@ -56,7 +66,7 @@ def tencent(ticker,limit=450,start=START):
         op,cl,hi,lo,vol=map(safe_num,[op,cl,hi,lo,vol])
         if None in (op,cl,hi,lo) or min(op,cl,hi,lo)<=0 or hi+0.011<max(op,cl) or lo-0.011>min(op,cl):
             raise ValueError("bad OHLC "+str(x[:6]))
-        bars.append([dt,ticker,op,hi,lo,cl,vol,None,"Tencent_raw"])
+        bars.append([dt,ticker,op,hi,lo,cl,vol,None,"Tencent_"+adjustment])
     return validate(bars)
 def eastmoney(ticker,start=START):
     code,exchange=ticker.split(".")
@@ -205,7 +215,7 @@ def stress_job(ticker):
         "first":arr[0][0] if arr else None,
         "last":arr[-1][0] if arr else None,
         "latest_session_present":END in {x[0] for x in arr},
-        "origin":"Tencent_raw","error":errors}
+        "origin":arr[0][-1] if arr else "UNAVAILABLE","error":errors}
 if extras:
     with ThreadPoolExecutor(max_workers=3) as ex:
         futures={ex.submit(stress_job,t):t for t in extras}
