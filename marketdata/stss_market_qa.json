@@ -1,6 +1,6 @@
 {
-  "generated_at_cst": "2026-09-30T00:36:51+08:00",
-  "expected_complete_session": "2026-09-29",
+  "generated_at_cst": "2026-10-01T00:29:28+08:00",
+  "expected_complete_session": "2026-09-30",
   "snapshot_source": "V6.2_CURRENT_STATE 50-ticker snapshot; Drive remains authoritative",
   "ticker_count": 50,
   "fresh_count": 50,
@@ -8,39 +8,37 @@
   "unavailable_count": 0,
   "price_conflict_count": 0,
   "benchmark": {
-    "000001.SZ": "2026-09-29",
-    "600000.SH": "2026-09-29"
+    "000001.SZ": "2026-09-30",
+    "600000.SH": "2026-09-30"
   },
   "spot_crosschecks": {
     "002360.SZ": {
       "status": "PASS",
-      "tencent_close": 5.37,
-      "eastmoney_close": 5.37,
+      "tencent_close": 5.33,
+      "eastmoney_close": 5.33,
       "delta": 0.0
     },
     "600491.SH": {
       "status": "PASS",
-      "tencent_close": 1.55,
-      "eastmoney_close": 1.55,
+      "tencent_close": 1.57,
+      "eastmoney_close": 1.57,
       "delta": 0.0
     },
     "000752.SZ": {
-      "status": "PASS",
-      "tencent_close": 8.68,
-      "eastmoney_close": 8.68,
-      "delta": 0.0
+      "status": "SECONDARY_FAILED",
+      "error": "Remote end closed connection without response"
     }
   },
   "request_counts": {
     "Tencent_raw": 52,
-    "Eastmoney_raw": 3
+    "Eastmoney_raw": 4
   },
   "status": "SUCCESS",
   "per_ticker": [
     {
       "ticker": "000010.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -48,7 +46,7 @@
     {
       "ticker": "000610.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -56,7 +54,7 @@
     {
       "ticker": "000632.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -64,7 +62,7 @@
     {
       "ticker": "000669.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -72,7 +70,7 @@
     {
       "ticker": "000826.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -80,7 +78,7 @@
     {
       "ticker": "000838.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -88,7 +86,7 @@
     {
       "ticker": "000972.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -96,7 +94,7 @@
     {
       "ticker": "002168.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -104,7 +102,7 @@
     {
       "ticker": "002360.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -112,7 +110,7 @@
     {
       "ticker": "002528.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -120,7 +118,7 @@
     {
       "ticker": "002547.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -128,7 +126,7 @@
     {
       "ticker": "002620.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -136,7 +134,7 @@
     {
       "ticker": "002634.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -144,7 +142,7 @@
     {
       "ticker": "002726.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -152,7 +150,7 @@
     {
       "ticker": "002743.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -160,7 +158,7 @@
     {
       "ticker": "002789.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -168,7 +166,7 @@
     {
       "ticker": "002856.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -176,7 +174,7 @@
     {
       "ticker": "300027.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -184,7 +182,7 @@
     {
       "ticker": "300044.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -192,7 +190,7 @@
     {
       "ticker": "300068.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -200,7 +198,7 @@
     {
       "ticker": "300123.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -208,7 +206,7 @@
     {
       "ticker": "300147.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -216,7 +214,7 @@
     {
       "ticker": "300198.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -224,7 +222,7 @@
     {
       "ticker": "300212.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -232,7 +230,7 @@
     {
       "ticker": "300301.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -240,7 +238,7 @@
     {
       "ticker": "300338.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -248,7 +246,7 @@
     {
       "ticker": "300385.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -256,7 +254,7 @@
     {
       "ticker": "300472.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -264,7 +262,7 @@
     {
       "ticker": "300477.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -272,7 +270,7 @@
     {
       "ticker": "300716.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -280,7 +278,7 @@
     {
       "ticker": "301030.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -288,7 +286,7 @@
     {
       "ticker": "600180.SH",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -296,7 +294,7 @@
     {
       "ticker": "600337.SH",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -304,7 +302,7 @@
     {
       "ticker": "600340.SH",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -312,7 +310,7 @@
     {
       "ticker": "600491.SH",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -320,7 +318,7 @@
     {
       "ticker": "600537.SH",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -328,7 +326,7 @@
     {
       "ticker": "600881.SH",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -336,7 +334,7 @@
     {
       "ticker": "603377.SH",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -344,7 +342,7 @@
     {
       "ticker": "603378.SH",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -352,7 +350,7 @@
     {
       "ticker": "603398.SH",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -360,7 +358,7 @@
     {
       "ticker": "603843.SH",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -368,7 +366,7 @@
     {
       "ticker": "603959.SH",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -376,7 +374,7 @@
     {
       "ticker": "688033.SH",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -384,7 +382,7 @@
     {
       "ticker": "000752.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -392,7 +390,7 @@
     {
       "ticker": "000829.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -400,7 +398,7 @@
     {
       "ticker": "002514.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -408,7 +406,7 @@
     {
       "ticker": "300205.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -416,7 +414,7 @@
     {
       "ticker": "300460.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -424,7 +422,7 @@
     {
       "ticker": "002542.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
@@ -432,7 +430,7 @@
     {
       "ticker": "000056.SZ",
       "rows": 360,
-      "latest_date": "2026-09-29",
+      "latest_date": "2026-09-30",
       "fresh": true,
       "source": "Tencent_raw",
       "errors": []
