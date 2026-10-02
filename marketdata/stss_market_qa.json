@@ -1,5 +1,5 @@
 {
-  "generated_at_cst": "2026-10-02T01:07:25+08:00",
+  "generated_at_cst": "2026-10-03T00:21:07+08:00",
   "expected_complete_session": "2026-09-30",
   "snapshot_source": "V6.2_CURRENT_STATE 50-ticker snapshot; Drive remains authoritative",
   "ticker_count": 50,
@@ -13,21 +13,27 @@
   },
   "spot_crosschecks": {
     "002360.SZ": {
-      "status": "SECONDARY_FAILED",
-      "error": "Remote end closed connection without response"
+      "status": "PASS",
+      "tencent_close": 5.33,
+      "eastmoney_close": 5.33,
+      "delta": 0.0
     },
     "600491.SH": {
-      "status": "SECONDARY_FAILED",
-      "error": "Remote end closed connection without response"
+      "status": "PASS",
+      "tencent_close": 1.57,
+      "eastmoney_close": 1.57,
+      "delta": 0.0
     },
     "000752.SZ": {
-      "status": "SECONDARY_FAILED",
-      "error": "Remote end closed connection without response"
+      "status": "PASS",
+      "tencent_close": 8.72,
+      "eastmoney_close": 8.72,
+      "delta": 0.0
     }
   },
   "request_counts": {
     "Tencent_raw": 52,
-    "Eastmoney_raw": 6
+    "Eastmoney_raw": 4
   },
   "status": "SUCCESS",
   "per_ticker": [
