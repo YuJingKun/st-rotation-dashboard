@@ -1,9 +1,9 @@
 {
-  "generated_at_cst": "2026-10-03T00:21:07+08:00",
+  "generated_at_cst": "2026-10-03T09:05:38+08:00",
   "expected_complete_session": "2026-09-30",
   "snapshot_source": "V6.2_CURRENT_STATE 50-ticker snapshot; Drive remains authoritative",
-  "ticker_count": 50,
-  "fresh_count": 50,
+  "ticker_count": 51,
+  "fresh_count": 51,
   "stale_count": 0,
   "unavailable_count": 0,
   "price_conflict_count": 0,
@@ -13,27 +13,21 @@
   },
   "spot_crosschecks": {
     "002360.SZ": {
-      "status": "PASS",
-      "tencent_close": 5.33,
-      "eastmoney_close": 5.33,
-      "delta": 0.0
+      "status": "SECONDARY_FAILED",
+      "error": "Remote end closed connection without response"
     },
     "600491.SH": {
-      "status": "PASS",
-      "tencent_close": 1.57,
-      "eastmoney_close": 1.57,
-      "delta": 0.0
+      "status": "SECONDARY_FAILED",
+      "error": "Remote end closed connection without response"
     },
     "000752.SZ": {
-      "status": "PASS",
-      "tencent_close": 8.72,
-      "eastmoney_close": 8.72,
-      "delta": 0.0
+      "status": "SECONDARY_FAILED",
+      "error": "Remote end closed connection without response"
     }
   },
   "request_counts": {
-    "Tencent_raw": 52,
-    "Eastmoney_raw": 4
+    "Tencent_raw": 53,
+    "Eastmoney_raw": 6
   },
   "status": "SUCCESS",
   "per_ticker": [
@@ -431,6 +425,14 @@
     },
     {
       "ticker": "000056.SZ",
+      "rows": 360,
+      "latest_date": "2026-09-30",
+      "fresh": true,
+      "source": "Tencent_raw",
+      "errors": []
+    },
+    {
+      "ticker": "600678.SH",
       "rows": 360,
       "latest_date": "2026-09-30",
       "fresh": true,
